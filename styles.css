@@ -1,0 +1,27 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style: none;
+}
