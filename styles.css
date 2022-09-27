@@ -1,9 +1,10 @@
 img {
-  border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
+  padding: 5px 5px 5px 5px;
   width: 150px;
   height: 150px;
+  background-color: #e8a323;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
 .recipe-list {
@@ -15,13 +16,26 @@ img {
 
 h1 {
     text-align: center;
-    border-bottom: 2px solid gray;
     width: 250px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 25px;
+    text-decoration: underline;
+    font-family: Palatino;
 }
 
 ul {
     list-style: none;
+}
+
+body {
+    background-color: #bf872c;
+}
+
+li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    line-height: 18px;
 }
